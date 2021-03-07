@@ -1,0 +1,165 @@
+* {
+  font-size: 1.1rem;
+}
+
+
+body {
+  
+}
+
+
+.fas {
+  font-size: 3rem; 
+  margin-left: 30px;
+  color: rgb(140, 230, 99);
+}
+
+img {
+  display: block;
+  width: 300px;
+  margin: 0 auto;
+}
+.slike {
+  width: 80%;
+  margin: 0 auto;
+  padding: 25px;
+  text-align: center;
+}
+
+.slike img {
+  width: 33%;
+}
+
+.slike .losijaSlika {
+  width: 300px;
+}
+.velikaSlika {
+  width: 33%;
+}
+
+/* TEXT NA SREDINI NASLOVNE STRANE*/
+.headText {
+  font-size: 3.5em;
+  padding: 10vw;
+  color: rgb(3, 9, 119);
+  text-align: center;
+  width: 100%;
+  height: 90vh;
+  background-image: linear-gradient(to right, rgba(140, 230, 99, 0.4), rgba(141, 144, 89, 0.2));
+  font-weight: bold;
+}
+
+/* NAZIV TEMA NA STRANI BELESKE */
+
+.nazivTeme {
+  text-align: center;
+  border: 3px solid #343a40;
+  padding: 5px;
+  margin: 25px;
+  border-radius: 25px;
+  background-image: linear-gradient(to right, rgb(231, 238, 228),rgb(227, 228, 213)));
+  transition: 300ms;
+}
+
+.nazivTeme:hover {
+   border-top-left-radius: 0px;
+  border: 3px solid rgb(34, 168, 74);
+  background-image: linear-gradient(to right, rgba(140, 230, 99, 0.4),rgba(141, 144, 89, 0.2));
+ }
+
+
+.nazivTeme a {
+  text-decoration: none;
+  color: #343a40;
+}
+
+
+/* NASLOV GLAVNE TEME */
+.naslovTeme {
+  font-weight: 900;
+  text-align: justify;
+}
+
+
+/* GLAVNI CONTAINER SA TEXTOM I SLIKAMA */
+.main {
+  text-align:justify;
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+  background-image: linear-gradient(to right, rgba(125, 184, 179, 0.1), rgba(240, 222, 179, 0.1));
+  position: relative;
+}
+
+/* TEXT OBJAŠNJENJA */
+.objasnjenje {
+  color:green;
+  text-align: center;
+  border: 1px dotted sienna;
+  width: 80%;
+  margin: 0 auto 25px auto;
+}
+
+/*   LINIJA RAZDVAJANJA POJMOVA */
+.main h2 {
+  border-top: 1px solid rgb(131, 131, 131);
+}
+
+/*broj pitanja u vezbama */
+.pitanja {
+  color:red;
+  font-size: 0.7rem;
+}
+
+/* TABELA ZA TRICIKLE I CETVOROCIKLE */
+table {
+  text-align: center;
+  background-color: rgba(125, 184, 179, 0.1);
+  
+}
+
+table td, th {
+  border: 1px solid black;
+  width: 5%;
+}
+
+#nijeBenzin3, #nijeBenzin {
+  background-color: rgba(74, 175, 206, 0.33);
+}
+
+#naBenzin3, #naBenzin {
+  background-color: rgba(240, 222, 179, 0.66);
+}
+label {
+  font-weight: 900;
+}
+input[type=radio] {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+}
+
+video {
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+ .main h2 {
+   text-align: center;
+ }
+ 
+
+  .slike img {
+    width: 66%;
+  }
+
+  label {
+    font-weight: 200;
+  }
+  
+}
