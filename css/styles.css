@@ -7,17 +7,35 @@ body {
   
 }
 
-
 .fas {
-  font-size: 3rem; 
+  font-size: 2rem; 
   margin-left: 30px;
-  color: rgb(140, 230, 99);
 }
 
+.fa-instagram-square {
+  font-size: 2rem; 
+  margin-left: 30px;
+  
+}
+.fa-google-plus-g {
+  font-size: 2rem; 
+  margin-left: 30px;
+
+}
+.fa-facebook {
+  font-size: 2rem; 
+  margin-left: 22px;
+ 
+}
+p {
+  font-weight: 600;
+  padding: 10px;
+}
 img {
   display: block;
   width: 300px;
   margin: 0 auto;
+  padding: 20px;
 }
 .slike {
   width: 80%;
@@ -29,12 +47,21 @@ img {
 .slike img {
   width: 33%;
 }
-
-.slike .losijaSlika {
-  width: 300px;
+.slikeSignalizacija img {
+  display: inline-block;
 }
-
-
+.slike .losijaSlika {
+  width: 250px;
+}
+.velikaSlika {
+  width: 33%;
+}
+.slikeInlineDiv {
+  text-align: center;
+}
+.slikeInline {
+  display: inline-block;
+}
 /* TEXT NA SREDINI NASLOVNE STRANE*/
 .headText {
   font-size: 3.5em;
@@ -91,9 +118,11 @@ img {
 
 /* TEXT OBJAŠNJENJA */
 .objasnjenje {
-  color:green;
+  color:rgb(0, 29, 0);
   text-align: center;
-  border: 1px dotted sienna;
+  
+  width: 80%;
+  margin: 0 auto 25px auto;
 }
 
 /*   LINIJA RAZDVAJANJA POJMOVA */
@@ -149,9 +178,11 @@ video {
    text-align: center;
  }
  
-
+ .slike .losijaSlika {
+  width: 200px;
+}
   .slike img {
-    width: 66%;
+    width: 90%;
   }
 
   label {
